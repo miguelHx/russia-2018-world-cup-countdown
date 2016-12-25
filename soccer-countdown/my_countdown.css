@@ -70,3 +70,30 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 2px;
 }
+
+@media screen and (max-width: 525px) {
+	#world-premiere {
+		font-size: 12px;
+		width: 300px;
+		min-height: 465px;
+		background-size: 400px auto;
+	}
+
+	#world-premiere .heading {
+		padding: 12px 0 8px 0px; /*top right bottom left*/
+		margin-bottom: 20px;
+	}
+
+	#world-premiere h1 {
+		line-height: 40px;
+		font-size: 3.7em;
+	}
+
+	#world-premiere h2 {
+		line-height: 22px;
+		letter-spacing: 5px;
+	}
+	#world-premiere .my-countdown .countdown-section {
+		width: 68px;
+	}
+}
