@@ -12,9 +12,10 @@ body {
 	font-family: 'Teko', sans-serif;
 	width: 500px;
 	margin: 25px auto;
+	margin-bottom: 0px !important;
 	border: 1px solid rgba(255,255,255,.2);
-	background: #092f6e url(satellite_dish.jpg) no-repeat center bottom;
-	min-height: 575px;
+	background: #092f6e url(world_cup_2018.png) no-repeat center bottom;
+	min-height: 750px;
 }
 
 #world-premiere .heading {
@@ -75,7 +76,7 @@ body {
 	#world-premiere {
 		font-size: 12px;
 		width: 300px;
-		min-height: 465px;
+		min-height: 590px;
 		background-size: 400px auto;
 	}
 
@@ -96,4 +97,26 @@ body {
 	#world-premiere .my-countdown .countdown-section {
 		width: 68px;
 	}
+	.hype {
+		width: 300px !important;
+		height: 358px !important;
+		font-size: 12px;
+	}
+	.hype iframe {
+		width: 300px;
+		height: 255px;
+	}
+}
+
+.hype {
+	margin-top: 0px !important;
+	text-align: center;
+	border: solid 1px rgba(255,255,255,.2);
+	width: 500px;
+	height: 438px;
+	margin: 25px auto;
+	text-transform: uppercase;
+	font-weight: 300;
+	line-height: 70px;
+	padding: 0px;
 }
